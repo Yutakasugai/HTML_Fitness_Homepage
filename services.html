@@ -1,26 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lux Fitness Gym</title>
-</head>
-<body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-        <a href="/" class="navbar__logo">LUX</a>
-        <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lux Fitness Gym</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/442362b37d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navbar Section -->
+        <!-- Test Pushing  -->
+        <nav class="navbar">
+            <a href="/" class="navbar__logo">LUX</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="navbar__menu">
+                <a href="/" class="navbar__link">Home</a>
+                <a href="/services.html" class="navbar__link">Services</a>
+                <a href="/plans.html" class="navbar__link">Plans</a>
+                <a href="/trainers.html" class="navbar__link">Trainers</a>
+            </div>
+        </nav>
+
+        <!-- Services Section -->
+        <div class="services">
+            <div class="services__container">
+                <div>
+                    <p class="topline">Features</p>
+                    <h1 class="services__heading">What we offer</h1>
+                    <div class="services__features">
+                        <p class="services__feature">
+                            <i class="fa-solid fa-circle-check"></i>Group Fitness Classes
+                        </p>
+                        <p class="services__feature">
+                            <i class="fa-solid fa-circle-check"></i>Personal Trainer Sessions
+                        </p>
+                        <p class="services__feature">
+                            <i class="fa-solid fa-circle-check"></i>Indoor Pool
+                        </p>
+                        <p class="services__feature">
+                            <i class="fa-solid fa-circle-check"></i>Steam Room and Sauna
+                        </p>
+                        <p class="services__feature">
+                            <i class="fa-solid fa-circle-check"></i>Basketball Court 
+                        </p>
+                        <p class="services__feature">
+                            <i class="fa-solid fa-circle-check"></i>Open 24/7
+                        </p>
+                    </div>  
+                </div>
+                <div>
+                    <img src="./images/gym-2.jpg" alt="gym" class="services__img">
+                </div>
+            </div>
         </div>
-        <div class="navbar__menu">
-            <a href="/" class="navbar__link">Home</a>
-            <a href="/services.html" class="navbar__link">Services</a>
-            <a href="/plans.html" class="navbar__link">Plans</a>
-            <a href="/trainers.html" class="navbar__link">Trainers</a>
+
+       
+        <!-- Footer Section -->
+        <div class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__desc">
+                    <h1>LUX FITNESS</h1>
+                    <p>Luxury fitness gym located in downtown Miami.</p>
+                    <p id="phone">305 - 123 - 4567</p>
+                </div>
+                <div class="footer__links">
+                    <h2 class="footer__title">Contact Us</h2>
+                    <a href="/services.html" class="footer__link">Contact</a>
+                    <a href="/services.html" class="footer__link">Support</a>
+                    <a href="/services.html" class="footer__link">Sponsorships</a>
+                </div>
+            </div>
+            <div class="footer__wrapper">
+                <div class="footer__links">
+                    <h2 class="footer__title">Memberships</h2>
+                    <a href="/services.html" class="footer__link">Contact</a>
+                    <a href="/services.html" class="footer__link">Support</a>
+                    <a href="/services.html" class="footer__link">Sponsorships</a>
+                </div>
+                <div class="footer__links">
+                    <h2 class="footer__title">social Media</h2>
+                    <a href="/services.html" class="footer__link">Contact</a>
+                    <a href="/services.html" class="footer__link">Support</a>
+                    <a href="/services.html" class="footer__link">Sponsorships</a>
+                </div>
+            </div>
         </div>
-    </nav>
-</body>
+        <script src="app.js"></script>
+    </body>
 </html>
